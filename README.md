@@ -271,3 +271,13 @@ sudo sh /usr/local/horae/bin/horae.sh ${start/stop/restart}
 自实现的`jedisque`连接池。目前jedisque的客户端还没有提供连接池机制，它跟redis的主流java client：`jedis`出自同一个开发者手笔。考虑到`jedis`内部使用的是`apache commons-pool`实现连接池机制，在实现`jedisque`的时候也使用的是同样的方案，等`jedisque`官方提供连接池之后，会采用官方连接池。
 
 `disque`的开发过程中，对命令和命令参数可能会进行调整，`horae`也会对此进行跟进。虽然，`disque`的stable版本还未发布，但redis作者的水准和口碑有目共睹，所以你有理由相信它能给你带来惊喜。
+
+##licence
+Copyright (c) 2015 yanghua. All rights reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+```
+http://www.apache.org/licenses/LICENSE-2.0
+```
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
