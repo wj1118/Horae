@@ -4,7 +4,7 @@
 
 ***horae*** : 时序女神，希腊神话中司掌季节时间和人间秩序的三女神，又译“荷莱”。
 
-horae是一个基于`redis`和[`disque`](https://github.com/antirez/disque)实现的`轻量级`、`高性能`的异步任务执行器，它的核心是`disque`提供的任务队列，而队列有`先进先出`的时序关系，顾得名：`horae`。
+horae是一个基于`redis`和[`disque`](https://github.com/antirez/disque)实现的`轻量级`、`高性能`的异步任务执行器，它的核心是`disque`提供的任务队列，而队列有`先进先出`的时序关系，故得名：`horae`。
 
 <!-- more -->
 
