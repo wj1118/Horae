@@ -1,0 +1,9 @@
+.idea/*
+.DS_Store
+*/target/*
+*.iml
+META-INF/*
+*.rdb
+*.MF
+*.class
+src/test/*
